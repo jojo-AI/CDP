@@ -137,7 +137,7 @@ parser.add_argument('--use_future_temporal_feature', type=int, default=0,
 parser.add_argument('--mask_rate', type=float, default=0.125, help='mask ratio')
 
 # anomaly detection task
-parser.add_argument('--anomaly_ratio', type=float, default=0.25, help='prior anomaly ratio (%)')
+parser.add_argument('--anomaly_ratio', type=float, default=0.25, help='prior anomaly ratio (%%)')
 
 # optimization
 parser.add_argument('--num_workers', type=int, default=10, help='data loader num workers')

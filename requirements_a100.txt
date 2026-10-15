@@ -1,0 +1,11 @@
+# 仅当集群 python 没有 CDP 依赖时由 run_all.sh 创建 venv 安装；torch 请用集群自带 CUDA 版
+pandas
+numpy
+scikit-learn
+matplotlib
+tqdm
+einops
+PyWavelets
+sympy
+scipy
+sktime

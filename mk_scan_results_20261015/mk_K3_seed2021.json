@@ -1,0 +1,17 @@
+{
+  "axis": "K",
+  "K": 3,
+  "cdp_M": 4.0,
+  "down_sampling_layers": 2,
+  "model_id": "ETTh1_mk_K3_s2021",
+  "seed": 2021,
+  "mse": 0.37216326979552805,
+  "mae": 0.3865376102681063,
+  "stage1_mse": 0.3786116824939408,
+  "stage1_mae": 0.38940595769557823,
+  "backbone_source": "local_retrain",
+  "stage1_ckpt": "long_term_forecast_ETTh1_st1_96_K3_dynamic_l10.0_s2021_none_TimeMixer_ETTh1_sl96_pl96_dm16_nh8_el2_dl1_df32_fc1_ebtimeF_dtTrue_ST1_0",
+  "status": "ok",
+  "log": "/data/jojo_test/CDP_MK_A100_20261015/mk_logs/K3_stage2_s2021.log",
+  "finished_at": "2026-10-15 16:48:06"
+}

@@ -1,0 +1,14 @@
+{
+  "axis": "K",
+  "K": 3,
+  "down_sampling_layers": 2,
+  "model_id": "ETTh1_st1_96_K3_dynamic_l10.0_s2021",
+  "seed": 2021,
+  "mse": 0.3786116824939408,
+  "mae": 0.38940595769557823,
+  "stage": "stage1",
+  "backbone_source": "local_retrain",
+  "status": "ok",
+  "log": "/data/jojo_test/CDP_MK_A100_20261015/mk_logs/K3_stage1_s2021.log",
+  "finished_at": "2026-10-15 16:46:28"
+}
