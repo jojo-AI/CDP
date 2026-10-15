@@ -1,0 +1,20 @@
+[07:14:51] ============================================================
+[07:14:51] TimeKAN cdp_loss=mse sensitivity: 8 runs (seed 2021)
+[07:14:51] ============================================================
+[07:14:51] START [1/8] weather-96
+[07:16:54] DONE  [1/8] weather-96  2.1 min
+[07:16:54] START [2/8] weather-192
+[07:19:56] DONE  [2/8] weather-192  3.0 min
+[07:19:56] START [3/8] weather-336
+[07:21:52] DONE  [3/8] weather-336  1.9 min
+[07:21:52] START [4/8] weather-720
+[07:26:00] DONE  [4/8] weather-720  4.1 min
+[07:26:00] START [5/8] traffic-96
+[07:50:22] DONE  [5/8] traffic-96  24.4 min
+[07:50:22] START [6/8] traffic-192
+[08:28:01] DONE  [6/8] traffic-192  37.7 min
+[08:28:01] START [7/8] traffic-336
+[08:54:18] DONE  [7/8] traffic-336  26.3 min
+[08:54:18] START [8/8] traffic-720
+[09:37:24] DONE  [8/8] traffic-720  43.1 min
+[09:37:24] === ALL DONE === ok=8 fail=0 skipped_or_done=0

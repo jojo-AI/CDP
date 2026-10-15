@@ -1,0 +1,31 @@
+[auto] enc_in=862 -> batch_size=32
+train 11993
+[traffic] train: 11993 windows
+val 1565
+[traffic] val: 1565 windows
+test 3317
+[traffic] test: 3317 windows
+device: cuda
+frozen backbone test: MSE=0.5864 MAE=0.3620
+unfroze params: 18641
+head ep01 train_l1=0.3501 val_mae=0.3226 test_mse=0.5870 test_mae=0.3626 *
+head ep02 train_l1=0.3486 val_mae=0.3233 test_mse=0.5871 test_mae=0.3636
+head ep03 train_l1=0.3484 val_mae=0.3218 test_mse=0.5869 test_mae=0.3622 *
+head ep04 train_l1=0.3483 val_mae=0.3238 test_mse=0.5876 test_mae=0.3640
+head ep05 train_l1=0.3484 val_mae=0.3225 test_mse=0.5868 test_mae=0.3628
+head ep06 train_l1=0.3482 val_mae=0.3213 test_mse=0.5858 test_mae=0.3612 *
+head ep07 train_l1=0.3484 val_mae=0.3256 test_mse=0.5893 test_mae=0.3659
+head ep08 train_l1=0.3483 val_mae=0.3225 test_mse=0.5875 test_mae=0.3627
+head ep09 train_l1=0.3483 val_mae=0.3225 test_mse=0.5871 test_mae=0.3629
+head ep10 train_l1=0.3482 val_mae=0.3234 test_mse=0.5883 test_mae=0.3638
+head ep11 train_l1=0.3482 val_mae=0.3235 test_mse=0.5875 test_mae=0.3639
+head ep12 train_l1=0.3482 val_mae=0.3258 test_mse=0.5903 test_mae=0.3661
+head ep13 train_l1=0.3482 val_mae=0.3238 test_mse=0.5896 test_mae=0.3644
+head ep14 train_l1=0.3482 val_mae=0.3231 test_mse=0.5900 test_mae=0.3636
+head early stop at ep14
+============================================================
+RESULT traffic-192 (head)
+  TimeKAN       MSE=0.5864  MAE=0.3620
+  TimeKAN+CDP   MSE=0.5858  MAE=0.3612
+  delta         MSE=-0.09%  MAE=-0.23%
+  |A|=0.3476 |B|=3.5526 |C|=2.1642 |d|=2.6353

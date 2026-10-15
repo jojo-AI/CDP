@@ -1,0 +1,33 @@
+[auto] enc_in=21 -> batch_size=128
+train 36600
+[weather] train: 36600 windows
+val 5079
+[weather] val: 5079 windows
+test 10348
+[weather] test: 10348 windows
+device: cuda
+frozen backbone test: MSE=0.2104 MAE=0.2502
+unfroze params: 18641
+head ep01 train_l1=0.4967 val_mae=0.3301 test_mse=0.2113 test_mae=0.2623 *
+head ep02 train_l1=0.4971 val_mae=0.3315 test_mse=0.2108 test_mae=0.2623
+head ep03 train_l1=0.4967 val_mae=0.3338 test_mse=0.2111 test_mae=0.2632
+head ep04 train_l1=0.4970 val_mae=0.3345 test_mse=0.2111 test_mae=0.2636
+head ep05 train_l1=0.4965 val_mae=0.3318 test_mse=0.2104 test_mae=0.2611
+head ep06 train_l1=0.4966 val_mae=0.3310 test_mse=0.2112 test_mae=0.2628
+head ep07 train_l1=0.4966 val_mae=0.3300 test_mse=0.2111 test_mae=0.2620 *
+head ep08 train_l1=0.4963 val_mae=0.3292 test_mse=0.2107 test_mae=0.2611 *
+head ep09 train_l1=0.4969 val_mae=0.3322 test_mse=0.2117 test_mae=0.2642
+head ep10 train_l1=0.4961 val_mae=0.3339 test_mse=0.2133 test_mae=0.2644
+head ep11 train_l1=0.4967 val_mae=0.3319 test_mse=0.2106 test_mae=0.2616
+head ep12 train_l1=0.4964 val_mae=0.3308 test_mse=0.2112 test_mae=0.2615
+head ep13 train_l1=0.4960 val_mae=0.3314 test_mse=0.2109 test_mae=0.2627
+head ep14 train_l1=0.4965 val_mae=0.3316 test_mse=0.2111 test_mae=0.2631
+head ep15 train_l1=0.4968 val_mae=0.3308 test_mse=0.2107 test_mae=0.2612
+head ep16 train_l1=0.4977 val_mae=0.3335 test_mse=0.2113 test_mae=0.2637
+head early stop at ep16
+============================================================
+RESULT weather-192 (head)
+  TimeKAN       MSE=0.2104  MAE=0.2502
+  TimeKAN+CDP   MSE=0.2107  MAE=0.2611
+  delta         MSE=+0.14%  MAE=+4.36%
+  |A|=0.2579 |B|=0.1704 |C|=0.6719 |d|=0.7704
