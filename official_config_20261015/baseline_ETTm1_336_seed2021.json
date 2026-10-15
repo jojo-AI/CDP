@@ -1,0 +1,9 @@
+{
+  "data": "ETTm1",
+  "pred_len": 336,
+  "mode": "baseline",
+  "test_mse": 0.3828700858098377,
+  "test_mae": 0.4007811024272071,
+  "best_val_mse": 0.6383860587351143,
+  "seed": 2021
+}

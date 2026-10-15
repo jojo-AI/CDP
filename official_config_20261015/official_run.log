@@ -1,0 +1,90 @@
+[10-14 12:16:40] === 官方配置补跑（可移植版）开跑：44 个 run（expect 44）= baseline 24 + head 20（pid=50624）===
+[10-14 12:16:40] --- [1/44] ETTm1-96 baseline ---
+[10-14 12:25:04] DONE official ETTm1-96 baseline (8.4 min) MSE=0.3275 MAE=0.3667
+[10-14 12:25:04] --- [2/44] ETTm1-192 baseline ---
+[10-14 12:33:04] DONE official ETTm1-192 baseline (8.0 min) MSE=0.3604 MAE=0.3826
+[10-14 12:33:04] --- [3/44] ETTm1-336 baseline ---
+[10-14 12:41:03] DONE official ETTm1-336 baseline (8.0 min) MSE=0.3829 MAE=0.4008
+[10-14 12:41:03] --- [4/44] ETTm1-720 baseline ---
+[10-14 12:48:27] DONE official ETTm1-720 baseline (7.4 min) MSE=0.4507 MAE=0.4386
+[10-14 12:48:27] --- [5/44] ETTm1-96 head ---
+[10-14 12:54:17] DONE official ETTm1-96 head (5.8 min) dMSE=-2.70% dMAE=-3.07% (base 0.3275/0.3667)
+[10-14 12:54:17] --- [6/44] ETTm1-192 head ---
+[10-14 13:00:01] DONE official ETTm1-192 head (5.7 min) dMSE=-0.36% dMAE=-1.42% (base 0.3604/0.3826)
+[10-14 13:00:01] --- [7/44] ETTm1-336 head ---
+[10-14 13:11:37] DONE official ETTm1-336 head (11.6 min) dMSE=+0.21% dMAE=-1.24% (base 0.3829/0.4008)
+[10-14 13:11:37] --- [8/44] ETTm1-720 head ---
+[10-14 13:19:23] DONE official ETTm1-720 head (7.8 min) dMSE=-0.53% dMAE=-1.41% (base 0.4507/0.4386)
+[10-14 13:19:23] --- [9/44] ETTh2-96 baseline ---
+[10-14 13:27:29] DONE official ETTh2-96 baseline (8.1 min) MSE=0.2958 MAE=0.3441
+[10-14 13:27:29] --- [10/44] ETTh2-192 baseline ---
+[10-14 13:35:46] DONE official ETTh2-192 baseline (8.3 min) MSE=0.3837 MAE=0.4017
+[10-14 13:35:46] --- [11/44] ETTh2-336 baseline ---
+[10-14 13:43:40] DONE official ETTh2-336 baseline (7.9 min) MSE=0.4294 MAE=0.4384
+[10-14 13:43:40] --- [12/44] ETTh2-720 baseline ---
+[10-14 13:50:49] DONE official ETTh2-720 baseline (7.2 min) MSE=0.4495 MAE=0.4558
+[10-14 13:50:49] --- [13/44] ETTh2-96 head ---
+[10-14 14:05:22] DONE official ETTh2-96 head (14.5 min) dMSE=-1.75% dMAE=-1.46% (base 0.2958/0.3441)
+[10-14 14:05:22] --- [14/44] ETTh2-192 head ---
+[10-14 14:12:17] DONE official ETTh2-192 head (6.9 min) dMSE=-3.80% dMAE=-2.83% (base 0.3837/0.4017)
+[10-14 14:12:17] --- [15/44] ETTh2-336 head ---
+[10-14 14:27:08] DONE official ETTh2-336 head (14.8 min) dMSE=-2.54% dMAE=-3.12% (base 0.4294/0.4384)
+[10-14 14:27:08] --- [16/44] ETTh2-720 head ---
+[10-14 14:36:38] DONE official ETTh2-720 head (9.5 min) dMSE=-4.47% dMAE=-2.92% (base 0.4495/0.4558)
+[10-14 14:36:38] --- [17/44] ETTm2-96 baseline ---
+[10-14 14:42:32] DONE official ETTm2-96 baseline (5.9 min) MSE=0.1750 MAE=0.2572
+[10-14 14:42:32] --- [18/44] ETTm2-192 baseline ---
+[10-14 14:48:08] DONE official ETTm2-192 baseline (5.6 min) MSE=0.2399 MAE=0.3009
+[10-14 14:48:08] --- [19/44] ETTm2-336 baseline ---
+[10-14 14:54:27] DONE official ETTm2-336 baseline (6.3 min) MSE=0.3038 MAE=0.3459
+[10-14 14:54:27] --- [20/44] ETTm2-720 baseline ---
+[10-14 15:00:55] DONE official ETTm2-720 baseline (6.5 min) MSE=0.4143 MAE=0.4130
+[10-14 15:00:55] --- [21/44] ETTm2-96 head ---
+[10-14 15:05:52] DONE official ETTm2-96 head (5.0 min) dMSE=-1.36% dMAE=-0.97% (base 0.1750/0.2572)
+[10-14 15:05:52] --- [22/44] ETTm2-192 head ---
+[10-14 15:14:41] DONE official ETTm2-192 head (8.8 min) dMSE=-0.60% dMAE=-1.21% (base 0.2399/0.3009)
+[10-14 15:14:41] --- [23/44] ETTm2-336 head ---
+[10-14 15:21:19] DONE official ETTm2-336 head (6.6 min) dMSE=+1.87% dMAE=+0.26% (base 0.3038/0.3459)
+[10-14 15:21:19] --- [24/44] ETTm2-720 head ---
+[10-14 15:29:08] DONE official ETTm2-720 head (7.8 min) dMSE=+1.05% dMAE=-0.48% (base 0.4143/0.4130)
+[10-14 15:29:08] --- [25/44] ETTh1-96 baseline ---
+[10-14 15:29:56] DONE official ETTh1-96 baseline (0.8 min) MSE=0.3727 MAE=0.3951
+[10-14 15:29:56] --- [26/44] ETTh1-192 baseline ---
+[10-14 15:30:43] DONE official ETTh1-192 baseline (0.8 min) MSE=0.4240 MAE=0.4246
+[10-14 15:30:43] --- [27/44] ETTh1-336 baseline ---
+[10-14 15:31:30] DONE official ETTh1-336 baseline (0.8 min) MSE=0.4502 MAE=0.4412
+[10-14 15:31:30] --- [28/44] ETTh1-720 baseline ---
+[10-14 15:32:16] DONE official ETTh1-720 baseline (0.8 min) MSE=0.4581 MAE=0.4669
+[10-14 15:32:16] --- [29/44] ETTh1-96 head ---
+[10-14 15:34:14] DONE official ETTh1-96 head (2.0 min) dMSE=+0.06% dMAE=-2.33% (base 0.3727/0.3951)
+[10-14 15:34:14] --- [30/44] ETTh1-192 head ---
+[10-14 15:35:52] DONE official ETTh1-192 head (1.6 min) dMSE=-0.52% dMAE=-2.20% (base 0.4240/0.4246)
+[10-14 15:35:52] --- [31/44] ETTh1-336 head ---
+[10-14 15:36:38] DONE official ETTh1-336 head (0.8 min) dMSE=+1.02% dMAE=-1.01% (base 0.4502/0.4412)
+[10-14 15:36:38] --- [32/44] ETTh1-720 head ---
+[10-14 15:37:24] DONE official ETTh1-720 head (0.8 min) dMSE=+2.96% dMAE=-1.88% (base 0.4581/0.4669)
+[10-14 15:37:24] --- [33/44] electricity-96 baseline ---
+[10-14 16:31:20] DONE official electricity-96 baseline (53.9 min) MSE=0.1796 MAE=0.2745
+[10-14 16:31:20] --- [34/44] electricity-192 baseline ---
+[10-14 17:26:40] DONE official electricity-192 baseline (55.3 min) MSE=0.1852 MAE=0.2772
+[10-14 17:26:40] --- [35/44] electricity-336 baseline ---
+[10-14 18:22:44] DONE official electricity-336 baseline (56.1 min) MSE=0.1996 MAE=0.2905
+[10-14 18:22:44] --- [36/44] electricity-720 baseline ---
+[10-14 19:19:13] DONE official electricity-720 baseline (56.5 min) MSE=0.2395 MAE=0.3227
+[10-14 19:19:13] --- [37/44] electricity-96 head ---
+[10-14 20:30:41] DONE official electricity-96 head (71.5 min) dMSE=-0.57% dMAE=-1.92% (base 0.1796/0.2745)
+[10-14 20:30:41] --- [38/44] electricity-192 head ---
+[10-14 22:07:34] DONE official electricity-192 head (96.9 min) dMSE=-0.16% dMAE=-1.42% (base 0.1852/0.2772)
+[10-14 22:07:34] --- [39/44] electricity-336 head ---
+[10-14 22:52:18] DONE official electricity-336 head (44.7 min) dMSE=-0.06% dMAE=-0.94% (base 0.1996/0.2905)
+[10-14 22:52:18] --- [40/44] electricity-720 head ---
+[10-15 00:08:14] DONE official electricity-720 head (75.9 min) dMSE=-0.47% dMAE=-0.68% (base 0.2395/0.3227)
+[10-15 00:08:14] --- [41/44] weather-96 baseline ---
+[10-15 00:22:15] DONE official weather-96 baseline (14.0 min) MSE=0.1626 MAE=0.2090
+[10-15 00:22:15] --- [42/44] weather-192 baseline ---
+[10-15 00:35:39] DONE official weather-192 baseline (13.4 min) MSE=0.2086 MAE=0.2507
+[10-15 00:35:39] --- [43/44] weather-336 baseline ---
+[10-15 00:49:17] DONE official weather-336 baseline (13.6 min) MSE=0.2631 MAE=0.2908
+[10-15 00:49:17] --- [44/44] weather-720 baseline ---
+[10-15 01:03:06] DONE official weather-720 baseline (13.8 min) MSE=0.3439 MAE=0.3439
+[10-15 01:03:06] === 官方配置补跑全部完成（baseline 24/24，head 20/20）===

@@ -1,0 +1,9 @@
+{
+  "data": "ETTh1",
+  "pred_len": 336,
+  "mode": "baseline",
+  "test_mse": 0.45019364305844733,
+  "test_mae": 0.4412116684203569,
+  "best_val_mse": 1.2679570176807395,
+  "seed": 2021
+}

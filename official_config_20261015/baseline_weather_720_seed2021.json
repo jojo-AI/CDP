@@ -1,0 +1,9 @@
+{
+  "data": "weather",
+  "pred_len": 720,
+  "mode": "baseline",
+  "test_mse": 0.34385180597489484,
+  "test_mae": 0.34386349752888234,
+  "best_val_mse": 0.6783235268688661,
+  "seed": 2021
+}

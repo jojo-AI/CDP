@@ -1,0 +1,9 @@
+{
+  "data": "electricity",
+  "pred_len": 96,
+  "mode": "baseline",
+  "test_mse": 0.17961368588722657,
+  "test_mae": 0.27451180064640496,
+  "best_val_mse": 0.15474977634174472,
+  "seed": 2021
+}
