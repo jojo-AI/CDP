@@ -1,7 +1,8 @@
 # CDP: Calibration-aligned Dynamic Patching for Time Series Forecasting
 
-Official implementation of **CDP** — a training-free *dynamic patching* (DPS) module
-plus a component-side / prediction-side *calibration stack* (MA / CSC / CAO / PSC),
+Official implementation of **CDP** — a training-free *dynamic patching* (DPS) front-end
+(trend-adaptive patching with cross-resolution alignment) plus a component-side /
+prediction-side *calibration stack* (CSC / CAO / PSC),
 aligned to the delivered metric (MAE) rather than the training loss.
 
 CDP is a plug-in framework evaluated on TimeMixer++ as the primary backbone and
