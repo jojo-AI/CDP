@@ -166,9 +166,10 @@ class DPS(nn.Module):
                           mode='replicate').squeeze(1)      # [BN, P]
             Dp = D_pad.unsqueeze(2)                         # [BN, P, 1]
         # S 维描述子：等分 S 个子窗均值
+        # 注：不要用 torch.chunk —— chunk 先按 ceil(L/S) 定组宽再分组，
+        # 实际组数可能 < S（如 L=23,S=16 时得 12 组），与 MA 的 w[S] 不匹配。
         if L_seg - 1 >= self.S:
-            bins = torch.chunk(Dp, self.S, dim=2)
-            desc = torch.stack([b.mean(dim=2) for b in bins], dim=2)   # [BN, P, S]
+            desc = F.adaptive_avg_pool1d(Dp, self.S)    # [BN, P, S] 恰好 S 个子窗均值
         else:
             desc = F.interpolate(Dp, size=self.S, mode='linear', align_corners=False)
         d2 = Dp[:, :, 1:] - Dp[:, :, :-1] if Dp.shape[2] > 1 else Dp

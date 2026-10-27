@@ -71,6 +71,19 @@ documented in the paper's reproducibility appendix; the driver scripts
 
 - All deltas are computed against faithfully reproduced baselines under identical
   fixed seeds (2021–2026), never against numbers quoted from other papers.
+- Fixed CDP hyperparameters (Stage-2 final recipe, identical across all 28
+  settings, never per-dataset tuned): DPS segmentation factor M = 4,
+  calibration width S = 16, error-matrix EMA decay = 0.9, transverse-loss
+  weight λ_t = 0.01, calibration objective L1 (µ = 0.5), model-selection
+  monitor = validation MAE, calibration learning rate 5e-4 (adaptive ratio 5),
+  stage-wise weight ratio 0.2, channel rank 8/8, Stage-2 unfrozen modules =
+  head, norm and prediction mixer.
+- Per-setting ETT plug-in deltas (with per-seed dispersion) are in
+  [RESULTS_ETT_PLUGIN_DELTAS.md](RESULTS_ETT_PLUGIN_DELTAS.md); the frozen-backbone
+  plug-in transfer table (TimeMixer / TimeKAN / PatchTST / Crossformer on Solar,
+  Traffic, ETTh1, ETTm2) is in
+  [RESULTS_PLUGIN_TRANSFER.md](RESULTS_PLUGIN_TRANSFER.md); dataset
+  statistics are in [DATASETS.md](DATASETS.md).
 - Checkpoints under `checkpoints/` and datasets under `dataset/` are not committed.
 - Key switches: `--cdp_M` (DPS resolution factor), `--cdp_S` (descriptor dim),
   `--cdp_loss` / `--cdp_monitor` (Stage-2 objective / selection metric),
